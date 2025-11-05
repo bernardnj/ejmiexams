@@ -1,2 +1,515 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>School of Spiritual Foundation - Cohort 2 Examination</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: Arial, sans-serif; margin: 10px; background: #f9f9f9; }
+    h2 { color: #2c3e50; }
+    .question { margin-bottom: 15px; background: #fff; padding: 10px; border-radius: 8px; }
+    label { display: block; margin-bottom: 4px; font-weight: bold; }
+    textarea, input[type="text"] { width: 98%; }
+    .section-title { background: #e2e2e2; padding: 7px; font-weight: bold; margin-top: 20px; border-radius: 6px; }
+    .essay { margin-top: 10px; }
+    .submit-btn { background: #2c3e50; color: #fff; padding: 10px 25px; border: none; border-radius: 6px; font-size: 16px; cursor:pointer;}
+  </style>
+</head>
+<body>
+  <h2>SCHOOL OF SPIRITUAL FOUNDATION - COHORT 2 EXAMINATION</h2>
+  <p><strong>INSTRUCTIONS:</strong> Neatly underline the correct option or options where necessary: some questions may have more than one correct answer!</p>
+  <p><strong>DURATION:</strong> 1 HOUR 15 MINUTES</p>
+  <form name="form" method="POST" data-netlify="true">
+
+  <div class="section-title">Multiple Choice Questions</div>
+
+  <div class="question">
+    <label>1. Identify all that man lost at the fall</label>
+    <input type="checkbox" name="q1" value="Life" /> Life<br />
+    <input type="checkbox" name="q1" value="God's Presence" /> God's Presence<br />
+    <input type="checkbox" name="q1" value="Authority" /> Authority<br />
+    <input type="checkbox" name="q1" value="All of the above" /> All of the above<br />
+  </div>
+  <div class="question">
+    <label>2. What was Satan's desire when he encountered Adam & Eve in the garden?</label>
+    <input type="radio" name="q2" value="Authority" /> Authority<br />
+    <input type="radio" name="q2" value="Fame" /> Fame<br />
+    <input type="radio" name="q2" value="Accommodation" /> Accommodation<br />
+    <input type="radio" name="q2" value="Friendship" /> Friendship<br />
+  </div>
+  <div class="question">
+    <label>3. The fall is a function of man’s;</label>
+    <input type="radio" name="q3" value="Intelligence" /> Intelligence<br />
+    <input type="radio" name="q3" value="Emotions" /> Emotions<br />
+    <input type="radio" name="q3" value="Rebellion" /> Rebellion<br />
+    <input type="radio" name="q3" value="Woman" /> Woman<br />
+  </div>
+  <div class="question">
+    <label>4. The law of God insists that every sinner must be;</label>
+    <input type="radio" name="q4" value="Pleaded for" /> Pleaded for<br />
+    <input type="radio" name="q4" value="Negotiated" /> Negotiated<br />
+    <input type="radio" name="q4" value="Judged" /> Judged<br />
+    <input type="radio" name="q4" value="Overlooked" /> Overlooked<br />
+  </div>
+  <div class="question">
+    <label>5. Identify which of the below options doesn't define salvation?</label>
+    <input type="radio" name="q5" value="Deliverance" /> Deliverance<br />
+    <input type="radio" name="q5" value="Prosperity" /> Prosperity<br />
+    <input type="radio" name="q5" value="Sweeping the Church" /> Sweeping the Church<br />
+    <input type="radio" name="q5" value="Forgiveness" /> Forgiveness<br />
+  </div>
+  <div class="question">
+    <label>6. Identify which is the aspect of salvation below;</label>
+    <input type="radio" name="q6" value="Circumstantial" /> Circumstantial<br />
+    <input type="radio" name="q6" value="Demonic" /> Demonic<br />
+    <input type="radio" name="q6" value="Soulish" /> Soulish<br />
+    <input type="radio" name="q6" value="All of the above" /> All of the above<br />
+  </div>
+  <div class="question">
+    <label>7. We will be saved from Satan:</label>
+    <input type="radio" name="q7" value="True" /> True<br />
+    <input type="radio" name="q7" value="False" /> False<br />
+    <input type="radio" name="q7" value="None of the above" /> None of the above<br />
+    <input type="radio" name="q7" value="All of the above" /> All of the above<br />
+  </div>
+  <div class="question">
+    <label>8. What kind of identification does the incarnation represent;</label>
+    <input type="radio" name="q8" value="With sinful man" /> With sinful man<br />
+    <input type="radio" name="q8" value="With the sin of man" /> With the sin of man<br />
+    <input type="radio" name="q8" value="With man" /> With man<br />
+    <input type="radio" name="q8" value="With woman" /> With woman<br />
+  </div>
+  <div class="question">
+    <label>9. Our rulership authority as new creatures is based on our identification with Him in His;</label>
+    <input type="radio" name="q9" value="Cross" /> Cross<br />
+    <input type="radio" name="q9" value="Burial" /> Burial<br />
+    <input type="radio" name="q9" value="Enthronement" /> Enthronement<br />
+    <input type="radio" name="q9" value="All of the above" /> All of the above<br />
+  </div>
+  <div class="question">
+    <label>10. Which of the below option is/are step(s) to appropriation?</label>
+    <input type="radio" name="q10" value="Believing" /> Believing<br />
+    <input type="radio" name="q10" value="Singing" /> Singing<br />
+    <input type="radio" name="q10" value="Confessing" /> Confessing<br />
+    <input type="radio" name="q10" value="Worshipping" /> Worshipping<br />
+  </div>
+  
+  <div class="question">
+    <label>11. Identify all the internal evidence of Salvation from the below options;</label>
+    <input type="checkbox" name="q11" value="Testimony of the Holy Spirit" /> Testimony of the Holy Spirit<br />
+    <input type="checkbox" name="q11" value="Testimony of a good conscience" /> Testimony of a good conscience<br />
+    <input type="checkbox" name="q11" value="Testimony of the Word" /> Testimony of the Word<br />
+    <input type="checkbox" name="q11" value="Rest" /> Rest<br />
+  </div>
+  <div class="question">
+    <label>12. Every practising believer must possess ...?</label>
+    <input type="radio" name="q12" value="Love" /> Love<br />
+    <input type="radio" name="q12" value="Happiness" /> Happiness<br />
+    <input type="radio" name="q12" value="Desperation" /> Desperation<br />
+    <input type="radio" name="q12" value="Zeal" /> Zeal<br />
+  </div>
+  <div class="question">
+    <label>13. One of the following is an opposition to Salvation?</label>
+    <input type="radio" name="q13" value="Food" /> Food<br />
+    <input type="radio" name="q13" value="Women" /> Women<br />
+    <input type="radio" name="q13" value="Canal Mindedness" /> Canal Mindedness<br />
+    <input type="radio" name="q13" value="Sleep" /> Sleep<br />
+  </div>
+  <div class="question">
+    <label>14. Identify two ways of dealing with Satan?</label>
+    <input type="checkbox" name="q14" value="Submit to God" /> Submit to God<br />
+    <input type="checkbox" name="q14" value="Flee from him" /> Flee from him<br />
+    <input type="checkbox" name="q14" value="Resist him" /> Resist him<br />
+    <input type="checkbox" name="q14" value="Hate him" /> Hate him<br />
+  </div>
+  <div class="question">
+    <label>15. Identify the option(s) that validate the claim that the new creation never existed before.</label>
+    <input type="checkbox" name="q15" value="He is man" /> He is man<br />
+    <input type="checkbox" name="q15" value="Created in Christ" /> Created in Christ<br />
+    <input type="checkbox" name="q15" value="Arrived from Heaven" /> Arrived from Heaven<br />
+    <input type="checkbox" name="q15" value="All of the above" /> All of the above<br />
+  </div>
+  <div class="question">
+    <label>16. Why does the new creation live above condemnation?</label>
+    <input type="radio" name="q16" value="God loves him" /> God loves him<br />
+    <input type="radio" name="q16" value="He is high in spirit" /> He is high in spirit<br />
+    <input type="radio" name="q16" value="He is forgiven" /> He is forgiven<br />
+    <input type="radio" name="q16" value="He is God's Righteousness" /> He is God's Righteousness<br />
+  </div>
+  <div class="question">
+    <label>17. All of the following except one, implies that the new creation reigns in life?</label>
+    <input type="radio" name="q17" value="He lives above sickness" /> He lives above sickness<br />
+    <input type="radio" name="q17" value="He lives above sin" /> He lives above sin<br />
+    <input type="radio" name="q17" value="He lives large" /> He lives large<br />
+    <input type="radio" name="q17" value="He is not subject to the devil" /> He is not subject to the devil<br />
+  </div>
+  <div class="question">
+    <label>18. How does a new creation live by the Word?</label>
+    <input type="radio" name="q18" value="Obeying the Rhema Word" /> Obeying the Rhema Word<br />
+    <input type="radio" name="q18" value="Thinking the Word" /> Thinking the Word<br />
+    <input type="radio" name="q18" value="Talking the Word" /> Talking the Word<br />
+    <input type="radio" name="q18" value="All of the above" /> All of the above<br />
+  </div>
+  <div class="question">
+    <label>19. Posture in prayers</label>
+    <input type="radio" name="q19" value="Seeks intercession or to pray for him" /> Seeks intercession or to pray for him<br />
+    <input type="radio" name="q19" value="Connects with God through prayer" /> Connects with God through prayer<br />
+    <input type="radio" name="q19" value="Sings" /> Sings<br />
+  </div>
+  <div class="question">
+    <label>20. A new creation lives by faith because;</label>
+    <input type="radio" name="q20" value="He is not a man of works" /> He is not a man of works<br />
+    <input type="radio" name="q20" value="He is born of God" /> He is born of God<br />
+    <input type="radio" name="q20" value="He is a warrior" /> He is a warrior<br />
+    <input type="radio" name="q20" value="None of the above" /> None of the above<br />
+<div class="question">
+  <label>21. Which of the below options identifies the essence of the Holy Ghost in the new creation?</label>
+  <input type="radio" name="q21" value="A way maker" /> A way maker<br />
+  <input type="radio" name="q21" value="A sin detector" /> A sin detector<br />
+  <input type="radio" name="q21" value="A Comforter" /> A Comforter<br />
+  <input type="radio" name="q21" value="A promise keeper" /> A promise keeper<br />
+</div>
+<div class="question">
+  <label>22. Which of these constitutes the heavenly operations of the Holy Ghost?</label>
+  <input type="radio" name="q22" value="Sustains nature" /> Sustains nature<br />
+  <input type="radio" name="q22" value="Animates the realm" /> Animates the realm<br />
+  <input type="radio" name="q22" value="Convicts" /> Convicts<br />
+  <input type="radio" name="q22" value="The atmosphere" /> The atmosphere<br />
+</div>
+<div class="question">
+  <label>23. Which of these constitutes the transformational ministry of the Holy Ghost?</label>
+  <input type="radio" name="q23" value="Comforts" /> Comforts<br />
+  <input type="radio" name="q23" value="Brings access to inheritance" /> Brings access to inheritance<br />
+  <input type="radio" name="q23" value="Works miracles" /> Works miracles<br />
+  <input type="radio" name="q23" value="Awakens the Godlife" /> Awakens the Godlife<br />
+</div>
+<div class="question">
+  <label>24. Who does the Holy Ghost convict?</label>
+  <input type="radio" name="q24" value="God" /> God<br />
+  <input type="radio" name="q24" value="Men" /> Men<br />
+  <input type="radio" name="q24" value="Nature" /> Nature<br />
+  <input type="radio" name="q24" value="Angels" /> Angels<br />
+</div>
+<div class="question">
+  <label>25. Which of the following below is not part of the ministry of the Holy Spirit?</label>
+  <input type="radio" name="q25" value="Singing" /> Singing<br />
+  <input type="radio" name="q25" value="Helps" /> Helps<br />
+  <input type="radio" name="q25" value="Revelation" /> Revelation<br />
+  <input type="radio" name="q25" value="Transformation" /> Transformation<br />
+</div>
+<div class="question">
+  <label>26. Spiritual illumination falls under what category of the ministry of the Holy Ghost?</label>
+  <input type="radio" name="q26" value="Revelational ministry" /> Revelational ministry<br />
+  <input type="radio" name="q26" value="Helps ministry" /> Helps ministry<br />
+  <input type="radio" name="q26" value="Convicting ministry" /> Convicting ministry<br />
+  <input type="radio" name="q26" value="Overwhelming ministry" /> Overwhelming ministry<br />
+</div>
+<div class="question">
+  <label>27. Not everybody should speak in tongues, true or false?</label>
+  <input type="radio" name="q27" value="True" /> True<br />
+  <input type="radio" name="q27" value="False" /> False<br />
+</div>
+<div class="question">
+  <label>28. You only speak in tongues when the Holy Ghost wills, true or false?</label>
+  <input type="radio" name="q28" value="True" /> True<br />
+  <input type="radio" name="q28" value="False" /> False<br />
+</div>
+<div class="question">
+  <label>29. All the options below are reasons for speaking in tongues except:</label>
+  <input type="radio" name="q29" value="For popularity in the spirit" /> For popularity in the spirit<br />
+  <input type="radio" name="q29" value="For edification" /> For edification<br />
+  <input type="radio" name="q29" value="For divine direction" /> For divine direction<br />
+  <input type="radio" name="q29" value="For fellowship" /> For fellowship<br />
+</div>
+<div class="question">
+  <label>30. Offices established in the body for building other believers are called?</label>
+  <input type="radio" name="q30" value="Ministry gifts" /> Ministry gifts<br />
+  <input type="radio" name="q30" value="Power gifts" /> Power gifts<br />
+  <input type="radio" name="q30" value="Teaching gifts" /> Teaching gifts<br />
+  <input type="radio" name="q30" value="Eldership" /> Eldership<br />
+</div>
+<div class="question">
+  <label>31. Doctrine received, believed and practiced determines?</label>
+  <input type="radio" name="q31" value="Character" /> Character<br />
+  <input type="radio" name="q31" value="Faithfulness" /> Faithfulness<br />
+  <input type="radio" name="q31" value="Destiny" /> Destiny<br />
+  <input type="radio" name="q31" value="Abilities" /> Abilities<br />
+</div>
+<div class="question">
+  <label>32. Conviction without action is not repentance.</label>
+  <input type="radio" name="q32" value="True" /> True<br />
+  <input type="radio" name="q32" value="False" /> False<br />
+  <input type="radio" name="q32" value="Maybe" /> Maybe<br />
+  <input type="radio" name="q32" value="All of the above" /> All of the above<br />
+</div>
+<div class="question">
+  <label>33. True repentance has the following attributes:</label>
+  <input type="checkbox" name="q33" value="Repentance towards God" /> Repentance towards God<br />
+  <input type="checkbox" name="q33" value="Faith towards Jesus Christ" /> Faith towards Jesus Christ<br />
+  <input type="checkbox" name="q33" value="Feeling of sorrow" /> Feeling of sorrow<br />
+  <input type="checkbox" name="q33" value="Having the right ethics" /> Having the right ethics<br />
+</div>
+<div class="question">
+  <label>34. Faith is not?</label>
+  <input type="radio" name="q34" value="Mental Accent" /> Mental Accent<br />
+  <input type="radio" name="q34" value="Presumptions" /> Presumptions<br />
+  <input type="radio" name="q34" value="Confident Expectation" /> Confident Expectation<br />
+  <input type="radio" name="q34" value="Truth" /> Truth<br />
+</div>
+<div class="question">
+  <label>35. What are the enemies of faith?</label>
+  <input type="checkbox" name="q35" value="Sin" /> Sin<br />
+  <input type="checkbox" name="q35" value="Hope" /> Hope<br />
+  <input type="checkbox" name="q35" value="Trust" /> Trust<br />
+  <input type="checkbox" name="q35" value="Doubt" /> Doubt<br />
+</div>
+<div class="question">
+  <label>36. Which of the following is not a type of faith?</label>
+  <input type="radio" name="q36" value="Little faith" /> Little faith<br />
+  <input type="radio" name="q36" value="Weak Faith" /> Weak Faith<br />
+  <input type="radio" name="q36" value="Vain faith" /> Vain faith<br />
+  <input type="radio" name="q36" value="Social faith" /> Social faith<br />
+</div>
+<div class="question">
+  <label>37. The baptism type where God allows circumstances to sieve us is called?</label>
+  <input type="radio" name="q37" value="Baptism into the body" /> Baptism into the body<br />
+  <input type="radio" name="q37" value="Baptism by water" /> Baptism by water<br />
+  <input type="radio" name="q37" value="Baptism of the Spirit" /> Baptism of the Spirit<br />
+  <input type="radio" name="q37" value="Baptism by fire" /> Baptism by fire<br />
+</div>
+<div class="question">
+  <label>38. The baptism type where Jesus is the baptizer and the Spirit is the medium is called?</label>
+  <input type="radio" name="q38" value="Baptism into the body" /> Baptism into the body<br />
+  <input type="radio" name="q38" value="Baptism by water" /> Baptism by water<br />
+  <input type="radio" name="q38" value="Baptism of the Spirit" /> Baptism of the Spirit<br />
+  <input type="radio" name="q38" value="Baptism by fire" /> Baptism by fire<br />
+</div>
+<div class="question">
+  <label>39. Which of the following option(s) is a benefit of Baptism in the Holy Spirit?</label>
+  <input type="checkbox" name="q39" value="Power for witnessing" /> Power for witnessing<br />
+  <input type="checkbox" name="q39" value="Birth of a new creation" /> Birth of a new creation<br />
+  <input type="checkbox" name="q39" value="Deeper insight into the word" /> Deeper insight into the word<br />
+  <input type="checkbox" name="q39" value="All of the above" /> All of the above<br />
+</div>
+  </div>
+  <div class="question">
+    <label>41. Which of the reason(s) below justifies laying on of hands for ordination?</label>
+    <input type="radio" name="q41" value="Administers healing" /> Administers healing<br />
+    <input type="radio" name="q41" value="Fellowship" /> Fellowship<br />
+    <input type="radio" name="q41" value="Transfers spirits" /> Transfers spirits<br />
+    <input type="radio" name="q41" value="All of the above" /> All of the above<br />
+  </div>
+  <div class="question">
+    <label>42. Which of the following option(s) is a necessary disposition to receive?</label>
+    <input type="radio" name="q42" value="Equality disposition" /> Equality disposition<br />
+    <input type="radio" name="q42" value="Casual disposition" /> Casual disposition<br />
+    <input type="radio" name="q42" value="Disposition of honour" /> Disposition of honour<br />
+    <input type="radio" name="q42" value="None of the above" /> None of the above<br />
+  </div>
+  <div class="question">
+    <label>43. Why is laying on of hands significant in atonement?</label>
+    <input type="radio" name="q43" value="Because the guilt of sin is transferred" /> Because the guilt of sin is transferred<br />
+    <input type="radio" name="q43" value="Because spirit is transferred" /> Because spirit is transferred<br />
+    <input type="radio" name="q43" value="Because God is transferred" /> Because God is transferred<br />
+    <input type="radio" name="q43" value="Because righteousness is imparted" /> Because righteousness is imparted<br />
+  </div>
+  <div class="question">
+    <label>44. Which of these reason(s) below proves Christ's resurrection?</label>
+    <input type="radio" name="q44" value="Empty tomb" /> Empty tomb<br />
+    <input type="radio" name="q44" value="Transformed disciples" /> Transformed disciples<br />
+    <input type="radio" name="q44" value="Missing body" /> Missing body<br />
+    <input type="radio" name="q44" value="Resurrection Sunday" /> Resurrection Sunday<br />
+  </div>
+  <div class="question">
+    <label>45. Which of the following option(s) is a nature of Christ's resurrected body?</label>
+    <input type="radio" name="q45" value="Body of flesh and blood" /> Body of flesh and blood<br />
+    <input type="radio" name="q45" value="Heavenly body" /> Heavenly body<br />
+    <input type="radio" name="q45" value="Glorified body" /> Glorified body<br />
+    <input type="radio" name="q45" value="All of the above" /> All of the above<br />
+  </div>
+  <div class="question">
+    <label>46. Why is resurrection important?</label>
+    <input type="radio" name="q46" value="It proves Christ's deity" /> It proves Christ's deity<br />
+    <input type="radio" name="q46" value="It makes us think deep" /> It makes us think deep<br />
+    <input type="radio" name="q46" value="It makes us New Creation" /> It makes us New Creation<br />
+    <input type="radio" name="q46" value="It justifies us" /> It justifies us<br />
+  </div>
+  <div class="question">
+    <label>47. Which of the option(s) below are areas of judgement?</label>
+    <input type="radio" name="q47" value="Spoken words" /> Spoken words<br />
+    <input type="radio" name="q47" value="Works of the devil" /> Works of the devil<br />
+    <input type="radio" name="q47" value="Things that affects others" /> Things that affects others<br />
+    <input type="radio" name="q47" value="Singing Glorious Hymns" /> Singing Glorious Hymns<br />
+  </div>
+  <div class="question">
+    <label>48. Which of these reasons below necessitates judgement?</label>
+    <input type="radio" name="q48" value="Rejection of Christ" /> Rejection of Christ<br />
+    <input type="radio" name="q48" value="Godliness" /> Godliness<br />
+    <input type="radio" name="q48" value="Death" /> Death<br />
+    <input type="radio" name="q48" value="Human wisdom" /> Human wisdom<br />
+  </div>
+  <div class="question">
+    <label>49. Which of the following option(s) is/are parameters for judgment?</label>
+    <input type="radio" name="q49" value="Personal conduct" /> Personal conduct<br />
+    <input type="radio" name="q49" value="Human wisdom" /> Human wisdom<br />
+    <input type="radio" name="q49" value="Popular opinion" /> Popular opinion<br />
+    <input type="radio" name="q49" value="Extent of truth known" /> Extent of truth known<br />
+  </div>
+  <div class="question">
+    <label>50. Will men rule over nations in the world to come?</label>
+    <input type="radio" name="q50" value="Yes" /> Yes<br />
+    <input type="radio" name="q50" value="No" /> No<br />
+    <input type="radio" name="q50" value="Maybe" /> Maybe<br />
+    <input type="text" name="q50d" placeholder="Why should they?" /><br />
+  </div>
+  <div class="question">
+    <label>51. Is it a must for every believer to evangelize?</label>
+    <input type="radio" name="q51" value="Yes" /> Yes<br />
+    <input type="radio" name="q51" value="No" /> No<br />
+    <input type="radio" name="q51" value="Maybe" /> Maybe<br />
+    <input type="radio" name="q51" value="Not sure" /> Not sure<br />
+  </div>
+  <div class="question">
+    <label>52. Under what Evangelism type does Crusades and outreaches fall?</label>
+    <input type="radio" name="q52" value="Personal Evangelism" /> Personal Evangelism<br />
+    <input type="radio" name="q52" value="Group Evangelism" /> Group Evangelism<br />
+    <input type="radio" name="q52" value="Mass Evangelism" /> Mass Evangelism<br />
+    <input type="radio" name="q52" value="Global Evangelism" /> Global Evangelism<br />
+  </div>
+  <div class="question">
+    <label>53. Which of the option(s) leads to effective evangelism?</label>
+    <input type="checkbox" name="q53" value="Holy vexation" /> Holy vexation<br />
+    <input type="checkbox" name="q53" value="Going out" /> Going out<br />
+    <input type="checkbox" name="q53" value="Prayer" /> Prayer<br />
+    <input type="checkbox" name="q53" value="Power of the Holy Ghost" /> Power of the Holy Ghost<br />
+  </div>
+  <div class="question">
+    <label>54. Which of the following constitutes the scope of evangelism?</label>
+    <input type="radio" name="q54" value="Jerusalem to Judea" /> Jerusalem to Judea<br />
+    <input type="radio" name="q54" value="Until a soul is won" /> Until a soul is won<br />
+    <input type="radio" name="q54" value="Until all creatures hear the gospel" /> Until all creatures hear the gospel<br />
+    <input type="radio" name="q54" value="Until you win the argument" /> Until you win the argument<br />
+  </div>
+  <div class="question">
+    <label>55. Which of these constitutes ways of leading souls to Christ?</label>
+    <input type="radio" name="q55" value="Shouting while preaching" /> Shouting while preaching<br />
+    <input type="radio" name="q55" value="Pray the conviction of the Spirit" /> Pray the conviction of the Spirit<br />
+    <input type="radio" name="q55" value="Confessing the Lordship of Jesus" /> Confessing the Lordship of Jesus<br />
+    <input type="radio" name="q55" value="Display of oratory" /> Display of oratory<br />
+  </div>
+  <div class="question">
+    <label>56. Which of the option(s) below implies the concept of growing unto maturity?</label>
+    <input type="radio" name="q56" value="To be a Christian for a long time" /> To be a Christian for a long time<br />
+    <input type="radio" name="q56" value="To be ordained an elder" /> To be ordained an elder<br />
+    <input type="radio" name="q56" value="To attain the fullness of the stature of Christ" /> To attain the fullness of the stature of Christ<br />
+    <input type="radio" name="q56" value="A state of being perfect" /> A state of being perfect<br />
+  </div>
+  <div class="question">
+    <label>57. Leaving the sensory realm to the divine realm is called?</label>
+    <input type="radio" name="q57" value="Intelligence" /> Intelligence<br />
+    <input type="radio" name="q57" value="Excellence" /> Excellence<br />
+    <input type="radio" name="q57" value="Faith" /> Faith<br />
+    <input type="radio" name="q57" value="All of the above" /> All of the above<br />
+  </div>
+  <div class="question">
+    <label>58. Which of the following option(s) is/are disposition(s) of a mature believer?</label>
+    <input type="checkbox" name="q58" value="Walking in love" /> Walking in love<br />
+    <input type="checkbox" name="q58" value="Operating in divine wisdom" /> Operating in divine wisdom<br />
+    <input type="checkbox" name="q58" value="Operating by public opinion" /> Operating by public opinion<br />
+    <input type="checkbox" name="q58" value="Living by Faith" /> Living by Faith<br />
+  </div>
+  <div class="question">
+    <label>59. Which of the below becomes the state of a man's walk with eternity in view?</label>
+    <input type="radio" name="q59" value="Becomes carnally minded" /> Becomes carnally minded<br />
+    <input type="radio" name="q59" value="Becomes religious" /> Becomes religious<br />
+    <input type="radio" name="q59" value="Becomes susceptible to the princes of this age" /> Becomes susceptible to the princes of this age<br />
+    <input type="radio" name="q59" value="Given to Evangelism" /> Given to Evangelism<br />
+  </div>
+  <div class="question">
+    <label>60. A man operating a spiritual gift is certainly mature, true or false?</label>
+    <input type="radio" name="q60" value="True" /> True<br />
+    <input type="radio" name="q60" value="False" /> False<br />
+  </div>
+
+  <div class="section-title">Essay Questions</div>
+
+  <div class="question essay">
+    <label>1. Explain the Salvation of man in the light of the 3 dimensions as revealed in the scriptures (Past, Present and Future)</label>
+    <textarea name="essay1" rows="4"></textarea>
+  </div>
+
+  <div class="question essay">
+    <label>2. If a Christian happens to be involved in an accident and dies immediately but just before the accident he cheated the bus driver in the payment of his transport fare. What would be his fate in eternity?</label>
+    <textarea name="essay2" rows="4"></textarea>
+  </div>
+
+  <div class="question essay">
+    <label>3. What are some of the significance of The Laying on of hands?</label>
+    <textarea name="essay3" rows="4"></textarea>
+  </div>
+
+  <div class="question essay">
+    <label>4. What is the fate of a Christian whose body was burnt to death as far as the resurrection is concerned; would he/she be able to rise again; especially as the remains of the body would have completely been dispersed?</label>
+    <textarea name="essay4" rows="4"></textarea>
+  </div>
+
+  <div class="question essay">
+    <label>5. Would a Christian be judged if he/she had to kill themself because they were being attacked by bandits/terrorist and were going to be gruesomely murdered, instead of watching that happen, decided to swallow poison?</label>
+    <textarea name="essay5" rows="4"></textarea>
+  </div>
+
+  <div class="question essay">
+    <label>6. In the light of the parameters of Judgement, would a Christian be Judged for standing against a thief and eventually killed him; the thief attempted to steal off him/her and was about to kill the Christian?</label>
+    <textarea name="essay6" rows="4"></textarea>
+  </div>
+
+  <div class="question essay">
+    <label>7. Why must a Christian evangelize? And when is the work of evangelism said to be completed for a Christian?</label>
+    <textarea name="essay7" rows="4"></textarea>
+  </div>
+
+  <div class="question essay">
+    <label>8. Differentiate between Soul Winning and Evangelism? And when is a soul said to be won?</label>
+    <textarea name="essay8" rows="4"></textarea>
+  </div>
+
+  <div class="question essay">
+    <label>9. Explain what it means to Live in view of eternity!</label>
+    <textarea name="essay9" rows="4"></textarea>
+  </div>
+
+  <div class="question essay">
+    <label>10. Is there a degree of sin that takes a man to Hell? If yes/no explain!</label>
+    <textarea name="essay10" rows="4"></textarea>
+  </div>
+
+  <button type="submit" class="submit-btn">Submit Exam</button>
+  </form>
+<div id="timer" style="font-weight:bold; font-size:16px; margin-bottom:15px;"></div>
+<script>
+  const duration = 2 * 60 * 60 * 1000 + 30 * 60 * 1000; // 2 hours 30 minutes in ms
+  let startTime = Date.now();
+
+  function updateTimer() {
+    let elapsed = Date.now() - startTime;
+    let remaining = duration - elapsed;
+    if (remaining <= 0) {
+      clearInterval(timerInterval);
+      document.getElementById("timer").innerHTML = "Time's up! The exam is now closed.";
+      // Optionally disable submit button and inputs here
+      document.querySelector("form").querySelectorAll("input, textarea, button").forEach(el => el.disabled = true);
+      return;
+    }
+    let hrs = Math.floor(remaining / (1000 * 60 * 60));
+    let mins = Math.floor((remaining % (1000 * 60 * 60)) / (1000 * 60));
+    let secs = Math.floor((remaining % (1000 * 60)) / 1000);
+    document.getElementById("timer").innerHTML = `Time remaining: ${hrs}h ${mins}m ${secs}s`;
+  }
+
+  updateTimer();
+  let timerInterval = setInterval(updateTimer, 1000);
+</script>
+</body>
+</html>
 <xml xmlns:o="urn:schemas-microsoft-com:office:office"><o:MainFile HRef="../ejmi7778.html"/><o:File HRef="filelist.xml"/></xml>
